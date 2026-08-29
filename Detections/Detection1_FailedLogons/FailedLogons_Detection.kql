@@ -1,0 +1,5 @@
+Event
+| where EventID == 4625
+| where TimeGenerated > ago(30m)
+| project TimeGenerated, Computer, EventID, RenderedDescription
+| sort by TimeGenerated desc
