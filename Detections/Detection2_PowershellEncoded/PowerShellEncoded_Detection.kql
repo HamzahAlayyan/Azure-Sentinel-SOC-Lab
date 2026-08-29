@@ -1,0 +1,6 @@
+Event
+| where Source == "Microsoft-Windows-Sysmon"
+| where EventID == 1
+| where TimeGenerated > ago(30m)
+| where RenderedDescription contains "EncodedCommand"
+| project TimeGenerated, Computer, RenderedDescription
