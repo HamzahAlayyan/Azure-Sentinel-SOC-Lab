@@ -46,4 +46,7 @@ Event
 5. **Take action** - Close if benign, block/reset if suspicious
 
 ## Screenshots
----
+
+![Incident](Screenshots/MultipleFailedLogon-Incident.png)
+![Query Result](Screenshots/MultipleFailedLogon-Query.png)
+
