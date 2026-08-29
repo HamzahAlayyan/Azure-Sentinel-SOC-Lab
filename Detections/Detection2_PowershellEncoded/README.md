@@ -47,3 +47,7 @@ Event
 5. **Take action** - Close if legitimate admin task, isolate if suspicious
 
 ## Screenshots
+
+![Incident](Screenshots/PowerShellEncoded-Incident.png)
+![Query Result](Screenshots/PowerShellEncoded-Query.png)
+
